@@ -93,29 +93,29 @@
 // }
 // check ifa triangle is avalid baseed on angles
 
-// Find the grade of a student based on marks
+// // Find the grade of a student based on marks
 
-let marks=1
-if(marks>=101){
-    console.log("inavlid marks");    
-}else if(marks>=91 && marks <=100){
-    console.log("grade A")
+// let marks=1
+// if(marks>=101){
+//     console.log("inavlid marks");    
+// }else if(marks>=91 && marks <=100){
+//     console.log("grade A")
     
-}else if(marks>=81 && marks <=90){
-    console.log("grade B")
-}else if(marks>=71 && marks <=80){
-        console.log("grade C")
-}else if(marks>=61 && marks <=70){
-    console.log("grade D")
-}else if(marks>=51 && marks <=60){
-    console.log("grade E")
-}else if(marks>=41 && marks <=50){
-    console.log("grade F")
-}else if(marks>=33 && marks <=40){
-    console.log("grade G")
-}else if(marks>=91 && marks <=100){
-    console.log("fail")
-}else{
-    console.log("go and study");
+// }else if(marks>=81 && marks <=90){
+//     console.log("grade B")
+// }else if(marks>=71 && marks <=80){
+//         console.log("grade C")
+// }else if(marks>=61 && marks <=70){
+//     console.log("grade D")
+// }else if(marks>=51 && marks <=60){
+//     console.log("grade E")
+// }else if(marks>=41 && marks <=50){
+//     console.log("grade F")
+// }else if(marks>=33 && marks <=40){
+//     console.log("grade G")
+// }else if(marks>=91 && marks <=100){
+//     console.log("fail")
+// }else{
+//     console.log("go and study");
     
-}
+// }
