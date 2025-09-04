@@ -1,3 +1,4 @@
+
 // Switch case syntax
 
 /*
