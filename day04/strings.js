@@ -1,4 +1,5 @@
 // // // // // // // // // today we will learn string
+// strings are inmutable
 // // // // // // // // // methood 1
 // // // // // // // // // let str1= "java_script"
 // // // // // // // // // console.log(str1);
@@ -59,11 +60,12 @@
 
 // // // more types
 // // let str="ashish"
+//// console.log(str.charAt(5))
 // // console.log(str.indexOf("a"));    // 1
 // // console.log(str.lastIndexOf("2")); // 3
 // // console.log(str.includes("se"));   // true
-// // console.log(str.startsWith("ad")); // true
-// // console.log(str.endsWith("op"));   // true
+// // console.log(str.startsWith("ad")); // true usme ad h to true karega 
+// // console.log(str.endsWith("op"));   // true agar op nahi h toh false return karega
 
 
 // // methood 8 = extracting
@@ -78,3 +80,9 @@ let item="book";
 let price = 200;
 console.log(`The ${item} costs ₹${price}`);
 // The Book costs ₹200
+
+
+const url ="sqdihd jdjkaj jjjsa mjga"
+console.log(url.replace("a", " ")); // so here it will replace a with backspace
+console.log(url.replaceAll("a"," "));// it will replace a or sab m backspace ko add karega
+
