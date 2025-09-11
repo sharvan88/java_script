@@ -58,9 +58,6 @@
 
 
 // check if a character is a vowel or consinantlet
- 
-
-
 
 //check if a person is a child , teenager , or adult
 
