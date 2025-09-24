@@ -36,12 +36,12 @@ no 5 = for off loop
 
 
 
-// do while = it 
-let i=10;
-do{
-    console.log("ashish");
+// // do while = it 
+// let i=10;
+// do{
+//     console.log("ashish");
     
-}while(i <=5)
-    i++
+// }while(i <=5)
+//     i++
    
     
