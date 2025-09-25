@@ -34,18 +34,18 @@
 // // }
 // // print the first 10 multiples of 3
 
-// // for(i=1; i<=10;i++){
-// //     let num = 3;
-// //     console.log(`3 * ${i} = ${num*i}`)
-// // }
+// for(i=1; i<=10;i++){
+//     let num = 3;
+//     console.log(`3 * ${i} = ${num*i}`)
+// }
 // // sum of numbers from 1 to 100
 
-// // let lastnum =0;
-// // for(let i=1;i<=100; i++){
-// //     // console.log(i);
-// //    lastnum = lastnum + i;
-// // }
-// // console.log(lastnum);
+// let lastnum =0;
+// for(let i=1;i<=100; i++){
+//     // console.log(i);
+//    lastnum = lastnum + i;
+// }
+// console.log(lastnum);
 
 
 
@@ -108,13 +108,97 @@
 
 
 // print the reverse of a string without using inbuilt functions 
-let nm="ashish"
-let rev=""
- for(let i=nm.length-1; i>=0; i--){
-    rev +=nm[i]
+// let nm="ashish"
+// let rev=""
+//  for(let i=nm.length-1; i>=0; i--){
+//     rev +=nm[i]
  
      
 
- }
- console.log(rev);
+//  }
+//  console.log(rev)
 // print the sum of even numbers from 1 to 50 ?
+
+// let lastnum=0;
+// for(i=1; i<=5; i++){
+//    if(i%2==0){
+//       lastnum=lastnum+i
+//    }
+
+// }
+// console.log(lastnum);
+
+
+// print the sum of odd numbers from 1 to 50 ?
+// let lastnum=0;
+// for(i=1; i<=5; i++){
+//    if(i%2!==0){
+//       // console.log(i);
+      
+//       lastnum=lastnum+i
+//    }
+
+// }
+// console.log(lastnum);
+
+
+// print multiplication table of 7 in  Table form ?
+// for(i=1; i<=10;i++){
+//     let num = 7;
+//     console.log(`7 * ${i} = ${num*i}`)
+// }
+
+// create an array of the first 10 odd numbers ?
+// let array=[]
+// for(let i=1; i<=10;i++){
+//    if(i%2==0){
+//  array.push(i);
+
+// // console.log(array);
+//    }
+// }
+// console.log(array);
+
+// find the maximum number in an array ?
+// let arr=[2,5,7,9,1]
+// let maxnum=[0]
+// for(i=1; i<arr.length; i++){
+//    if(arr[i]>maxnum){
+//       maxnum=arr[i]
+      
+      
+//    }
+   
+   
+// }
+// console.log(maxnum);
+
+
+// Find the sum of +ve number in an [2,9,,-10,,20,-6,19] ?
+
+// let arr=[2,9,-10,20,-6,19]
+// let ve=[0]
+// for(let i=1; i<arr.length;i++){
+//   if( arr[i] >0){
+//    console.log(arr[i]);
+//    ve=ve+[i]
+   
+//   }
+  
+// }
+// console.log(ve);
+
+
+
+
+// Find the palindrone string
+
+
+let str="ashish"
+do{
+    console.log("ashish");
+    
+}while(i <=5)
+    i++
+   
+    // fibonachi question  1 to 50?
