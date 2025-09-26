@@ -174,31 +174,34 @@
 // console.log(maxnum);
 
 
-// Find the sum of +ve number in an [2,9,,-10,,20,-6,19] ?
+// Find the sum of +ve number in an [2,9,,-10,20,-6,19] ?
 
-// let arr=[2,9,-10,20,-6,19]
-// let ve=[0]
-// for(let i=1; i<arr.length;i++){
-//   if( arr[i] >0){
-//    console.log(arr[i]);
-//    ve=ve+[i]
-   
+
+// let arr = [2, 9, -10, 20, -6, 19];
+// let sum = 0;
+
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] > 0) { 
+    
+//     sum += arr[i];   
 //   }
-  
 // }
-// console.log(ve);
+
+// console.log("Sum of positive numbers:", sum);
+
+
 
 
 
 
 // Find the palindrone string
 
+// let str="nitin"
+// ispalindrone= true;
+// for(let i=0;i<str.length/2;i++){
 
-let str="ashish"
-do{
-    console.log("ashish");
-    
-}while(i <=5)
-    i++
-   
+// }
+
+
+
     // fibonachi question  1 to 50?
