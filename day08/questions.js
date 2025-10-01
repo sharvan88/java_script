@@ -49,29 +49,43 @@
 // reversestring("ashish");
 
 // Find the largest nuber in an array using function
-function largestnumber(arr) {
-  // let arr=[2,6,7]
-  let maxnum = [0]
-  for ( let i = 1; i < arr.length; i++) {
-    if (arr[i] > maxnum) {
-      arr+=maxnum
-    }
-    console.log(maxnum);
-  }
-}
-largestnumber([5,8,10]);
+// const largestnumber=(arr)=>{
+//     let largest = arr[0];
+//     for (let i = 1; i < arr.length; i++) {
+//         if (arr[i] > largest) {
+//             largest = arr[i];
+//         }
+//     }
+//     return largest;
+//   }
+// console.log(largestnumber([2,7,9,3,87]));
+
 // Find the negative number in an array using function
+// const findnegativenumber=(arr)=>{
+// let negativenumber=[]
+// for( let i=1; i<arr.length; i++){
+//   if(arr[i]<0){
+//     negativenumber.push(arr[i]);
+// }
+
+// }
+// return negativenumber;
+// }
+// console.log(findnegativenumber([2,8,-1,9,-22]));
+
 // Check if a string is a palindrone using function
 // Crete a function that returns the factorial of a number
 // create a function to count how many times a value appears in an array
 
 
-
-//  let arr=[2,6,7]
-//   let maxnum = [0];
-//   for (i = 1; i < arr.length; i++) {
-//     if (arr[i] > maxnum) {
-//       maxnum = arr[i];
+// const findNegativeNumbers = (arr) => {
+//   let negativesnumbers = [];   // yahan array banaya hai
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] < 0) {
+//       negativesnumbers.push(arr[i]); // ab push chalega
 //     }
-//     console.log(maxnum);
 //   }
+//   return negativesnumbers;
+// }
+
+// console.log(findNegativeNumbers([2, 8, -1, 9, -22]));
