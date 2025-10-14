@@ -89,3 +89,6 @@
 // }
 
 // console.log(findNegativeNumbers([2, 8, -1, 9, -22]));
+
+
+    
