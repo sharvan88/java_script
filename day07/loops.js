@@ -43,5 +43,38 @@ no 5 = for off loop
     
 // }while(i <=5)
 //     i++
+
+
+// <------✅ 4. for...of Loop------->
+
+// for (let value of iterable) {
+//   // code block
+// }
+
+
+// Example
+// let arr = ['a', 'b', 'c'];
+// for (let letter of arr) {
+//   console.log(letter);
+// }
+
+
+
+// ✅ 5. for...in Loop
+
+// syntax 
+
+// for (let key in object) {
+//   // code block
+// }
+
+
+// example
+// let person = { name: 'John', age: 30 };
+// for (let key in person) {
+//   console.log(key + ": " + person[key]);
+// }
+
+
    
     
