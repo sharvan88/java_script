@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dark & Light Mode Switch</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      transition: background 0.4s, color 0.4s;
+      text-align: center;
+      padding: 50px;
+      margin: 0;
+    }
+
+    /* Light Mode */
+    body.light {
+      background: #495b63; /* Sky blue */
+      color: #000;
+    }
+
+    /* Dark Mode */
+    body.dark {
+      background: #121212;
+      color: #fff;
+    }
+
+    /* Toggle Switch */
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 60px;
+      height: 34px;
+    }
+
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      transition: 0.4s;
+      border-radius: 34px;
+    }
+
+    .slider:before {
+      position: absolute;
+      content: "🌞";
+      height: 26px;
+      width: 26px;
+      left: 4px;
+      bottom: 4px;
+      background-color: white;
+      border-radius: 50%;
+      transition: 0.4s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+    }
+
+    input:checked + .slider {
+      background-color: #444;
+    }
+
+    input:checked + .slider:before {
+      transform: translateX(26px);
+      content: "🌙";
+    }
+  </style>
+</head>
+<body class="light">
+  <h1>Dark & Light Mode Example</h1>
+  <label class="switch">
+    <input type="checkbox" id="modeSwitch">
+    <span class="slider"></span>
+  </label>
+
+  <script>
+    const switchBtn = document.getElementById("modeSwitch");
+    const body = document.body;
+
+    switchBtn.addEventListener("change", () => {
+      if (switchBtn.checked) {
+        body.classList.remove("light");
+        body.classList.add("dark");
+      } else {
+        body.classList.remove("dark");
+        body.classList.add("light");
+      }
+    });
+  </script>
+</body>
+</html>
