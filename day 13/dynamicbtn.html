@@ -9,23 +9,23 @@
     <script>
       const button = document.createElement("button");
 
-      button.style.backgroundColor = "red";
-      button.style.borderRadius = "15px";
-      button.style.color = "black";
-      button.style.width = "60%";
-      button.style.height = "30px";
-      button.style.textContent = "center";
-      button.style.display = "flex";
-      button.style.justifyContent = "center";
-      button.style.alignItems = "center";
-      button.textContent = "click me to change the background colour";
-      button.style.textAlign = "center";
-      button.style.display = "flex";
-      button.style.position = "absolute";
-      button.style.top = "50%";
-      button.style.left = "50%";
-      button.style.transform = "translate(-50%, -50%)";
-
+      body.style.backgroundColor = "red";
+      body.style.borderRadius = "15px";
+      body.style.color = "black";
+      body.style.width = "60%";
+      body.style.height = "30px";
+      body.style.textContent = "center";
+      body.style.display = "flex";
+      body.style.justifyContent = "center";
+      body.style.alignItems = "center";
+      body.textContent = "click me to change the background colour";
+      body.style.textAlign = "center";
+      body.style.display = "flex";
+      body.style.position = "absolute";
+      body.style.left = "50%";
+      body.style.top = "50%";
+      
+      body.style.transform = "translate(-50%, -50%)";
       function getRandomColor() {
         const letters = "0123456789ABCDEF";
         let color = "#";
@@ -38,12 +38,12 @@
       
       button.addEventListener("click", () => {
         const randomColor = getRandomColor();
-        button.style.backgroundColor = randomColor;
+        body.style.backgroundColor = randomColor;
       });
 
     
-      console.log(button);
-      document.body.appendChild(button);
+      console.log(body);
+      document.body.appendChild(body);
 
       
     </script>
