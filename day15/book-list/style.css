@@ -6,28 +6,30 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: row;
+    background-color: black;
 }
 .container{
     background-color: black;
-    height: 80vh;
-    width: 70vw;
     display: flex;
     justify-content: center;
     flex-direction: column;
    padding: 1rem;
    /* text-align: center; */
+   margin-top: 1rem;
 }
 
 .heading{
     color: white;
      display: flex;
     justify-content: center; 
-    margin: 0;
-    padding: 0;
+    align-items: center;
+    font-size: 5vh;
+    color: rgb(38, 129, 214);
 }
 
 .items h1{
     color: antiquewhite;
+
     /* justify-content: center; */
     
   
@@ -42,4 +44,15 @@ body{
     
 .addbook{
     margin-top: 2rem;
+    background-color: rgba(240, 10, 10, 0.623);
+    border-radius: 1rem;
+    width: 100px;
+    justify-content: center;
+    text-align: center;
+    width: 100vh;
+    height: 8vh;
+}
+input{
+    width: 100vh;
+    height: 8vh;
 }
